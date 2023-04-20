@@ -1,18 +1,23 @@
 {
-  "package": {
-    "devDependencies": {
-      "@types/node": "^16.7.13",
-      "@types/react": "^18.0.0",
-      "@types/react-dom": "^18.0.0",
-      "typescript": "^4.4.2"
-    },
-    "dependencies": {       
-    },
-    "eslintConfig": {
-      "extends": ["react-app"]
-    },
-    "scripts": {
-      "test": "echo 'no tests specified'"
-    }
-  }
+  "name": "cra-template-bones",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "A very lightweight TypeScript template for Create React App",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zakwht/bones.git"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
 }
